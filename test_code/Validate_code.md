@@ -1,6 +1,5 @@
 Compare results and performances with AWKMT2cpp and survAWKMT2
 ================
-Yilong Zhang
 2017-06-22
 
 Evaluate Function `AWKMT2`

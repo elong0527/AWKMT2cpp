@@ -1,6 +1,5 @@
 ---
 title: "Compare results and performances with AWKMT2cpp and survAWKMT2"
-author: Yilong Zhang
 date: '`r Sys.Date()`'
 output: github_document
 ---

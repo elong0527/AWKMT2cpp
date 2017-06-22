@@ -9,7 +9,7 @@ The paper to descrbied the method is:
 
 [Uno H, Tian L, Claggett B, Wei LJ. A versatile test for equality of two survival functions based on weighted differences of Kaplan-Meier curves. Statistics in Medicine 2015, 34, 3680-3695.](http://onlinelibrary.wiley.com/doi/10.1002/sim.6591/abstract)
 
-## Installation ##
+## Installation 
 
 I assume that all auxillary packages are already installed
 
@@ -20,3 +20,7 @@ library(devtools)
 install_github("elong0527/AWKMT2cpp")
 library(AWKMT2cpp)
 ```
+## Info
+
+* The `AWKMT2cpp` package are 10X to 30X faster than `survAWKMT2`  
+* The detail can be found in this [link](test_code/Validate_code.md)

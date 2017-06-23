@@ -12,40 +12,23 @@ load("Validate.Rdata")
 res
 ```
 
-    ##                             survAWKMT2 AWKMT2cpp    diff         type
-    ## crude_pvalue_T1_1_side         0.36679   0.36750 0.00071  permutation
-    ## crude_pvalue_T2_1_side         0.44692   0.44796 0.00104  permutation
-    ## bona_fide_pvalue_T1_1_side     0.40902   0.41025 0.00123  permutation
-    ## bona_fide_pvalue_T2_1_side     0.49318   0.49448 0.00130  permutation
-    ## crude_pvalue_T1_2_side         0.52866   0.52692 0.00174  permutation
-    ## crude_pvalue_T2_2_side         0.44588   0.44489 0.00099  permutation
-    ## bona_fide_pvalue_T1_2_side     0.55082   0.54916 0.00166  permutation
-    ## bona_fide_pvalue_T2_2_side     0.46766   0.46654 0.00112  permutation
-    ## crude_pvalue_T1_1_side1        0.37514   0.36074 0.01440 perturbation
-    ## crude_pvalue_T2_1_side1        0.46326   0.44570 0.01756 perturbation
-    ## bona_fide_pvalue_T1_1_side1    0.41796   0.40211 0.01585 perturbation
-    ## bona_fide_pvalue_T2_1_side1    0.51354   0.49350 0.02004 perturbation
-    ## crude_pvalue_T1_2_side1        0.55754   0.54376 0.01378 perturbation
-    ## crude_pvalue_T2_2_side1        0.47581   0.46180 0.01401 perturbation
-    ## bona_fide_pvalue_T1_2_side1    0.58443   0.56982 0.01461 perturbation
-    ## bona_fide_pvalue_T2_2_side1    0.50224   0.48656 0.01568 perturbation
-    ##                               test time_survAWKMT2 time_AWKMT2cpp
-    ## crude_pvalue_T1_1_side      1_side         1536.30         117.69
-    ## crude_pvalue_T2_1_side      1_side         1536.30         117.69
-    ## bona_fide_pvalue_T1_1_side  1_side         1536.30         117.69
-    ## bona_fide_pvalue_T2_1_side  1_side         1536.30         117.69
-    ## crude_pvalue_T1_2_side      2_side         1580.15         133.48
-    ## crude_pvalue_T2_2_side      2_side         1580.15         133.48
-    ## bona_fide_pvalue_T1_2_side  2_side         1580.15         133.48
-    ## bona_fide_pvalue_T2_2_side  2_side         1580.15         133.48
-    ## crude_pvalue_T1_1_side1     1_side         1577.47          70.18
-    ## crude_pvalue_T2_1_side1     1_side         1577.47          70.18
-    ## bona_fide_pvalue_T1_1_side1 1_side         1577.47          70.18
-    ## bona_fide_pvalue_T2_1_side1 1_side         1577.47          70.18
-    ## crude_pvalue_T1_2_side1     2_side         1649.60          73.76
-    ## crude_pvalue_T2_2_side1     2_side         1649.60          73.76
-    ## bona_fide_pvalue_T1_2_side1 2_side         1649.60          73.76
-    ## bona_fide_pvalue_T2_2_side1 2_side         1649.60          73.76
+    ##                             survAWKMT2 AWKMT2cpp    diff         type   test time_survAWKMT2 time_AWKMT2cpp
+    ## crude_pvalue_T1_1_side         0.36679   0.36750 0.00071  permutation 1_side         1536.30         117.69
+    ## crude_pvalue_T2_1_side         0.44692   0.44796 0.00104  permutation 1_side         1536.30         117.69
+    ## bona_fide_pvalue_T1_1_side     0.40902   0.41025 0.00123  permutation 1_side         1536.30         117.69
+    ## bona_fide_pvalue_T2_1_side     0.49318   0.49448 0.00130  permutation 1_side         1536.30         117.69
+    ## crude_pvalue_T1_2_side         0.52866   0.52692 0.00174  permutation 2_side         1580.15         133.48
+    ## crude_pvalue_T2_2_side         0.44588   0.44489 0.00099  permutation 2_side         1580.15         133.48
+    ## bona_fide_pvalue_T1_2_side     0.55082   0.54916 0.00166  permutation 2_side         1580.15         133.48
+    ## bona_fide_pvalue_T2_2_side     0.46766   0.46654 0.00112  permutation 2_side         1580.15         133.48
+    ## crude_pvalue_T1_1_side1        0.37514   0.36074 0.01440 perturbation 1_side         1577.47          70.18
+    ## crude_pvalue_T2_1_side1        0.46326   0.44570 0.01756 perturbation 1_side         1577.47          70.18
+    ## bona_fide_pvalue_T1_1_side1    0.41796   0.40211 0.01585 perturbation 1_side         1577.47          70.18
+    ## bona_fide_pvalue_T2_1_side1    0.51354   0.49350 0.02004 perturbation 1_side         1577.47          70.18
+    ## crude_pvalue_T1_2_side1        0.55754   0.54376 0.01378 perturbation 2_side         1649.60          73.76
+    ## crude_pvalue_T2_2_side1        0.47581   0.46180 0.01401 perturbation 2_side         1649.60          73.76
+    ## bona_fide_pvalue_T1_2_side1    0.58443   0.56982 0.01461 perturbation 2_side         1649.60          73.76
+    ## bona_fide_pvalue_T2_2_side1    0.50224   0.48656 0.01568 perturbation 2_side         1649.60          73.76
 
 Evaluate Inner Function
 -----------------------

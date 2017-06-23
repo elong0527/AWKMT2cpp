@@ -61,3 +61,40 @@ res <- data.frame( survAWKMT2 = unlist(res1[-1]), AWKMT2cpp = unlist(res2[-c(1,2
 res$diff <- abs(res$survAWKMT2 - res$AWKMT2cpp)
 
 save(res, time_res1, time_res2, file = paste(type, test,".Rdata", sep = "_"))
+
+
+#---------------------------------------
+#   Summary res information
+#---------------------------------------
+
+# load("permutation_1_side.Rdata")
+# res$type <- c("permutation")
+# res$test <- c("1_side")
+# res$time_survAWKMT2 <- time_res1[3]
+# res$time_AWKMT2cpp  <- time_res2[3]
+# res1 <- res
+# 
+# load("permutation_2_side.Rdata")
+# res$type <- c("permutation")
+# res$test <- c("2_side")
+# res$time_survAWKMT2 <- time_res1[3]
+# res$time_AWKMT2cpp  <- time_res2[3]
+# res2 <- res
+# 
+# load("perturbation_1_side.Rdata")
+# res$type <- c("perturbation")
+# res$test <- c("1_side")
+# res$time_survAWKMT2 <- time_res1[3]
+# res$time_AWKMT2cpp  <- time_res2[3]
+# res3 <- res
+# 
+# load("perturbation_2_side.Rdata")
+# res$type <- c("perturbation")
+# res$test <- c("2_side")
+# res$time_survAWKMT2 <- time_res1[3]
+# res$time_AWKMT2cpp  <- time_res2[3]
+# res4 <- res
+# 
+# res <- rbind(res1, res2, res3, res4)
+# 
+# save(res, file = "Validate.Rdata")

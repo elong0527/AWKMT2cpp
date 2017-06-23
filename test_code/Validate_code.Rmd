@@ -5,17 +5,14 @@ output: github_document
 ---
 
 ## Evaluate Function `AWKMT2`
+
+Thw source code to evaluate `AWKMT2` is saved in `Validate_AWKMT2cpp.R` with 100,000 replications. 
+
 ```{r}
-load("perturbation_1_side.Rdata")
+load("Validate.Rdata")
 res
 ```
 
-### Running Time Comparision
-```{r}
-time <- rbind(time_res1, time_res2)[, 1:3]
-rownames(time) <- c("survAWKMT2", "AWKMT2cpp")
-time
-```
 
 ## Evaluate Inner Function 
 

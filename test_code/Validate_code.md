@@ -5,7 +5,7 @@ Compare results and performances with AWKMT2cpp and survAWKMT2
 Evaluate Function `AWKMT2`
 --------------------------
 
-Thw source code to evaluate `AWKMT2` is saved in `Validate_AWKMT2cpp.R` with 100,000 replications.
+The source code to evaluate `AWKMT2` is saved in `Validate_AWKMT2cpp.R` with 100,000 replications.
 
 ``` r
 load("Validate.Rdata")

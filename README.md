@@ -20,12 +20,6 @@ library(devtools)
 install_github("elong0527/AWKMT2cpp")
 library(AWKMT2cpp)
 ```
-
-or directly download `AWKMT2cpp_1.0.1.tar.gz` and install the package from source
-
-```r
-install.packages("../AWKMT2cpp_1.0.1.tar.gz", repos = NULL, type = "source")
-```
 ## Info
 
 * The `AWKMT2cpp` package are 10X to 30X faster than `survAWKMT2`  
